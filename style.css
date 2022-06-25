@@ -1,0 +1,79 @@
+.anothercardsize
+{
+    margin-bottom: 0px;
+}
+ul
+{
+    text-decoration: none;
+}
+.cardsize {
+    width: 27vw;
+    height: 100%;
+}
+#map
+{
+    width: 100%;
+    height: 100%;
+}
+.imgsize {
+    width: 38vw;
+}
+.card img
+{
+    width: 7.7vw;
+}
+.learnsize {
+    width: 36vw;
+}
+.fa
+{
+    padding: 3px;
+}
+@media(max-width:988px) and (min-width:769px)
+{
+    .anothercardsize
+    {
+        margin-bottom: 8px;
+    }
+    .card img
+    {
+        width: 10vw;
+    }
+}
+@media(min-width:769px) {
+    .inputwidth {
+        width: 50%;
+    }
+}
+
+@media(max-width:769px) {
+    .cardsize {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+
+    .imgsize {
+        width: 100%;
+
+    }
+    .learnsize {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .card img
+    {
+        width: 13vw;
+    }
+    .anothercardsize
+    {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:576px)
+{
+    .card img
+    {
+        width: 18vw;
+    }
+}
